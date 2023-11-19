@@ -1,0 +1,96 @@
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #87CEEB, #0000FF, #B0C4DE);
+        margin: 0;
+        padding: 0;
+        color: #000;
+    }
+
+    .container {
+        width: 80%;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 30px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        margin-top: 50px;
+        border-radius: 8px;
+        transition: box-shadow 0.3s ease;
+    }
+
+    .container:hover {
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+        color: #87CEEB;
+    }
+
+    form {
+        margin-bottom: 20px;
+    }
+
+    input[type="text"] {
+        width: calc(100% - 20px);
+        padding: 14px;
+        margin: 10px 0;
+        border: 2px solid #fff;
+        border-radius: 6px;
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, 0.8);
+        color: #87CEEB;
+        transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    }
+
+    input[type="text"]:focus {
+        border-color: #0000FF;
+        color: #0000FF;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 14px;
+        background: linear-gradient(to right, #87CEEB, #0000FF, #B0C4DE);
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+        background: linear-gradient(to right, #87CEEB, #0000FF, #B0C4DE);
+        filter: brightness(1.2);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 14px;
+        text-align: left;
+    }
+
+    th {
+        background: linear-gradient(to right, #87CEEB, #0000FF, #B0C4DE);
+        color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+
+    td form {
+        display: flex;
+        align-items: center;
+    }
+
+    td form input {
+        margin: 0 8px 0 0;
+    }
